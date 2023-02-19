@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:ignore="Deprecated">
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_x="183dp"
+        android:layout_y="72dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Hello"></EditText>
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="200pt"
+        android:layout_height="wrap_content"
+        android:layout_x="183dp"
+        android:layout_y="130dp"
+        android:autofillHints=""
+        android:ems="100"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Hello" />
+<Button
+android:id="@+id/bAdd"
+android:layout_width="102dp"
+android:layout_height="wrap_content"
+android:layout_x="27dp"
+android:layout_y="214dp"
+android:text="Add"/>
+<Button
+android:id="@+id/bSub"
+android:layout_width="102dp"
+android:layout_height="wrap_content"
+android:layout_x="161dp"
+android:layout_y="214dp"
+android:text="Sub"/>
+<Button
+android:id="@+id/bMul"
+android:layout_width="102dp"
+android:layout_height="wrap_content"
+android:layout_x="162dp"
+android:layout_y="299dp"
+android:text="Mul"/>
+<Button
+android:id="@+id/bDiv"
+android:layout_width="102dp"
+android:layout_height="wrap_content"
+android:layout_x="30dp"
+android:layout_y="299dp"
+android:text="Div"/>
+<TextView
+android:id="@+id/tAns"
+android:layout_width="246dp"
+android:layout_height="wrap_content"
+android:layout_x="50dp"
+android:layout_y="154dp"
+android:text="Total is 0"
+android:textSize="20sp"
+android:textStyle="bold"/>
+<TextView
+android:id="@+id/textView2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_x="6dp"
+android:layout_y="88dp"
+android:text="Enter Second Value"
+android:textAppearance="?android:attr/textAppearanceMedium"/>
+<TextView
+android:id="@+id/textView1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_x="8dp"
+android:layout_y="31dp"
+android:text="Enter First Value"
+android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </AbsoluteLayout>
